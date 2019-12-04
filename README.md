@@ -28,7 +28,7 @@ $ docker run --rm -it --net=none -v "${PWD}:/tmp" thomasleplus/hash sha256sum /t
 
 ## Help
 
-To know more command line options of `hashlint`:
+To know more command line options of `sha256sum`:
 
 ```
 $ docker run --rm -it --net=none thomasleplus/hash sha256sum -h
