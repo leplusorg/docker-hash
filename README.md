@@ -9,14 +9,14 @@ Assuming that you have a file `foo.txt` in your current working directory that y
 ### Mac/Linux
 
 ```
-$ cat foo.txt | docker run --rm -i --net=none thomasleplus/hash sha256sum
+cat foo.txt | docker run --rm -i --net=none thomasleplus/hash sha256sum
 ```
 
 ### Windows
 
 
 ```
-$ type foo.txt | docker run --rm -i --net=none thomasleplus/hash sha256sum
+type foo.txt | docker run --rm -i --net=none thomasleplus/hash sha256sum
 ```
 
 ## Help
@@ -24,5 +24,5 @@ $ type foo.txt | docker run --rm -i --net=none thomasleplus/hash sha256sum
 To know what are the message digest algorithms supported by `openssl`, you can run:
 
 ```
-$ docker run --rm --net=none thomasleplus/hash openssl help
+docker run --rm --net=none thomasleplus/hash openssl help
 ```
