@@ -1,6 +1,6 @@
 # Hash
 
-Docker container with utilities to compute hashes.
+Docker container with utilities to compute hashes (CRC32, MD5, SHA-1, SHA-256, SHA-512, Argon2...).
 
 ## Example
 
@@ -28,8 +28,8 @@ $ docker run --rm -it --net=none -v "${PWD}:/tmp" thomasleplus/hash sha256sum /t
 
 ## Help
 
-To know more command line options of `sha256sum`:
+To know what are the message digest algorithms supported by `openssl`, you can run:
 
 ```
-$ docker run --rm -it --net=none thomasleplus/hash sha256sum --help
+$ docker run --rm -it --net=none thomasleplus/hash openssl help
 ```
