@@ -24,5 +24,5 @@ $ type foo.txt | docker run --rm -i --net=none thomasleplus/hash sha256sum
 To know what are the message digest algorithms supported by `openssl`, you can run:
 
 ```
-$ docker run --rm -i --net=none thomasleplus/hash openssl help
+$ docker run --rm --net=none thomasleplus/hash openssl help
 ```
