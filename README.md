@@ -9,21 +9,14 @@ Assuming that you have a file `foo.txt` in your current working directory that y
 ### Mac/Linux
 
 ```
-$ docker run --rm -it --user="$(id -u):$(id -g)" --net=none -v "$(pwd):/tmp" thomasleplus/hash sha256sum /tmp/foo.txt
+$ cat foo.txt | docker run --rm -i --net=none thomasleplus/hash sha256sum
 ```
 
 ### Windows
 
-In `cmd`:
 
 ```
-$ docker run --rm -it --net=none -v "%cd%:/tmp" thomasleplus/hash sha256sum /tmp/foo.txt
-```
-
-In PowerShell:
-
-```
-$ docker run --rm -it --net=none -v "${PWD}:/tmp" thomasleplus/hash sha256sum /tmp/foo.txt
+$ type foo.txt | docker run --rm -i --net=none thomasleplus/hash sha256sum
 ```
 
 ## Help
@@ -31,5 +24,5 @@ $ docker run --rm -it --net=none -v "${PWD}:/tmp" thomasleplus/hash sha256sum /t
 To know what are the message digest algorithms supported by `openssl`, you can run:
 
 ```
-$ docker run --rm -it --net=none thomasleplus/hash openssl help
+$ docker run --rm -i --net=none thomasleplus/hash openssl help
 ```
