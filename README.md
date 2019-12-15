@@ -49,3 +49,7 @@ To know what are the message digest algorithms supported by `openssl`, you can r
 ```
 docker run --rm --net=none thomasleplus/hash openssl help
 ```
+
+## Request new tool
+
+Please use [this link](https://github.com/thomasleplus/docker-hash/issues/new?assignees=thomasleplus&labels=enhancement&template=feature_request.md&title=%5BFEAT%5D) to request that a new tool be added to the image. I am always interested in adding new capabilities to these images.
