@@ -7,6 +7,7 @@ Docker container with utilities to compute hashes (CRC32, MD5, SHA-1, SHA-256, S
 ![Docker Pulls](https://img.shields.io/docker/pulls/thomasleplus/hash)
 ![Docker Automated](https://img.shields.io/docker/cloud/automated/thomasleplus/hash)
 ![Docker Build](https://img.shields.io/docker/cloud/build/thomasleplus/hash)
+![Docker Version](https://img.shields.io/docker/v/thomasleplus/hash?sort=semver)
 
 ## Example not using the filesystem
 
