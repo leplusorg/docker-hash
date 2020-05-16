@@ -2,6 +2,11 @@
 
 Docker container with utilities to compute hashes (CRC32, MD5, SHA-1, SHA-256, SHA-512, Argon2...).
 
+![Docker Stars](https://img.shields.io/docker/stars/thomasleplus/hash.svg)
+![Docker Pulls](https://img.shields.io/docker/pulls/thomasleplus/hash.svg)
+![Docker Automated](https://img.shields.io/docker/automated/thomasleplus/hash.svg)
+![Docker Build](https://img.shields.io/docker/build/thomasleplus/hash.svg)
+
 ## Example not using the filesystem
 
 Let's say that you have a file `foo.txt` in your current working directory that you want to compute its SHA-256 hash:
