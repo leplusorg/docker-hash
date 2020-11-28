@@ -2,7 +2,7 @@
 
 Docker container with utilities to compute hashes (CRC32, MD5, SHA-1, SHA-256, SHA-512, Argon2...).
 
-![GitHub Build](https://img.shields.io/github/workflow/status/thomasleplus/docker-hash/Docker%20Image%20CI)
+![Docker Build](https://github.com/thomasleplus/docker-hash/workflows/Docker/badge.svg)
 ![Docker Stars](https://img.shields.io/docker/stars/thomasleplus/hash)
 ![Docker Pulls](https://img.shields.io/docker/pulls/thomasleplus/hash)
 ![Docker Automated](https://img.shields.io/docker/cloud/automated/thomasleplus/hash)
