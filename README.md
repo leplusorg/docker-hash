@@ -2,12 +2,12 @@
 
 Docker container with utilities to compute hashes (CRC32, MD5, SHA-1, SHA-256, SHA-512, Argon2...).
 
-![Docker Build](https://github.com/thomasleplus/docker-hash/workflows/Docker/badge.svg)
-![Docker Stars](https://img.shields.io/docker/stars/thomasleplus/hash)
-![Docker Pulls](https://img.shields.io/docker/pulls/thomasleplus/hash)
-![Docker Automated](https://img.shields.io/docker/cloud/automated/thomasleplus/hash)
-![Docker Build](https://img.shields.io/docker/cloud/build/thomasleplus/hash)
-![Docker Version](https://img.shields.io/docker/v/thomasleplus/hash?sort=semver)
+[![Docker Build](https://github.com/thomasleplus/docker-hash/workflows/Docker/badge.svg)](https://github.com/thomasleplus/docker-hash/actions?query=workflow:"Docker")
+[![Docker Stars](https://img.shields.io/docker/stars/thomasleplus/hash)](https://hub.docker.com/r/thomasleplus/hash)
+[![Docker Pulls](https://img.shields.io/docker/pulls/thomasleplus/hash)](https://hub.docker.com/r/thomasleplus/hash)
+[![Docker Automated](https://img.shields.io/docker/cloud/automated/thomasleplus/hash)](https://hub.docker.com/r/thomasleplus/hash)
+[![Docker Build](https://img.shields.io/docker/cloud/build/thomasleplus/hash)](https://hub.docker.com/r/thomasleplus/hash)
+[![Docker Version](https://img.shields.io/docker/v/thomasleplus/hash?sort=semver)](https://hub.docker.com/r/thomasleplus/hash)
 
 ## Example not using the filesystem
 
