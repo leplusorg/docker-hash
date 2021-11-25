@@ -1,4 +1,4 @@
-FROM alpine:3.14.3
+FROM alpine:3.15.0
 
 RUN apk --update --no-cache add apache2-utils argon2 coreutils openssl perl-archive-zip perl-utils \
     && rm -rf /var/cache/apk/*
