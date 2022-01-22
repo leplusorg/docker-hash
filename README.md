@@ -13,15 +13,15 @@ Docker container with utilities to compute hashes (CRC32, MD5, SHA-1, SHA-256, S
 
 Let's say that you have a file `foo.txt` in your current working directory that you want to compute its SHA-256 hash:
 
-### Mac/Linux
+**Mac/Linux**
 
-```
+```bash
 cat foo.txt | docker run --rm -i --net=none leplusorg/hash sha256sum
 ```
 
-### Windows
+**Windows**
 
-```
+```batch
 type foo.txt | docker run --rm -i --net=none leplusorg/hash sha256sum
 ```
 
@@ -29,23 +29,23 @@ type foo.txt | docker run --rm -i --net=none leplusorg/hash sha256sum
 
 Same thing, assuming that you have a file `foo.txt` in your current working directory that you want to compute its SHA-256 hash:
 
-### Mac/Linux
+**Mac/Linux**
 
-```
+```bash
 docker run --rm -t --user="$(id -u):$(id -g)" --net=none -v "$(pwd):/tmp" leplusorg/hash sha256sum /tmp/foo.txt
 ```
 
-### Windows
+**Windows**
 
 In `cmd`:
 
-```
+```batch
 docker run --rm -t --net=none -v "%cd%:/tmp" leplusorg/hash sha256sum /tmp/foo.txt
 ```
 
 In PowerShell:
 
-```
+```pwsh
 docker run --rm -t --net=none -v "${PWD}:/tmp" leplusorg/hash sha256sum /tmp/foo.txt
 ```
 
@@ -53,7 +53,7 @@ docker run --rm -t --net=none -v "${PWD}:/tmp" leplusorg/hash sha256sum /tmp/foo
 
 To know what are the message digest algorithms supported by `openssl`, you can run:
 
-```
+```bash
 docker run --rm --net=none leplusorg/hash openssl help
 ```
 
