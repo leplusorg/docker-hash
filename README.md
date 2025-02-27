@@ -7,6 +7,8 @@ Docker container with utilities to compute hashes (CRC32, MD5, SHA-1, SHA-256, S
 [![Docker Stars](https://img.shields.io/docker/stars/leplusorg/hash)](https://hub.docker.com/r/leplusorg/hash)
 [![Docker Pulls](https://img.shields.io/docker/pulls/leplusorg/hash)](https://hub.docker.com/r/leplusorg/hash)
 [![Docker Version](https://img.shields.io/docker/v/leplusorg/hash?sort=semver)](https://hub.docker.com/r/leplusorg/hash)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10075/badge)](https://bestpractices.coreinfrastructure.org/projects/10075)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/leplusorg/docker-hash/badge)](https://securityscorecards.dev/viewer/?uri=github.com/leplusorg/docker-hash)
 
 ## Example not using the filesystem
 
