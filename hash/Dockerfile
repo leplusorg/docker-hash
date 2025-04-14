@@ -19,7 +19,7 @@ RUN apk -U upgrade \
     coreutils=9.5-r2 \
     openssl=3.3.3-r0 \
     perl-archive-zip=1.68-r3 \
-    perl-utils=5.40.1-r0 \
+    perl-utils=5.40.1-r1 \
     py3-pip=24.3.1-r0 \
     python3=3.12.10-r0 \
     rhash=1.4.5-r0 \
