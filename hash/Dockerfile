@@ -21,7 +21,7 @@ RUN apk -U upgrade \
     perl-archive-zip=1.68-r3 \
     perl-utils=5.40.1-r0 \
     py3-pip=24.3.1-r0 \
-    python3=3.12.9-r0 \
+    python3=3.12.10-r0 \
     rhash=1.4.5-r0 \
     xxhash=0.8.2-r2 \
     && if apk -u list | grep -q -e . ; then \
