@@ -17,6 +17,8 @@ RUN apk -U upgrade \
     apache2-utils=2.4.63-r4 \
     argon2=20190702-r5 \
     coreutils=9.7-r1 \
+    curl=8.14.1-r0 \
+    git=2.49.0-r0 \
     openssl=3.5.0-r0 \
     perl-archive-zip=1.68-r3 \
     perl-utils=5.40.2-r0 \
