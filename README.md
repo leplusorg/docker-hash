@@ -1,6 +1,6 @@
 # Hash
 
-Docker container with utilities to compute hashes (CRC32, MD5, SHA-1, SHA-256, SHA-512, Argon2...).
+Multi-platform Docker container with utilities to compute hashes (CRC32, MD5, SHA-1, SHA-256, SHA-512, Argon2...).
 
 [![Dockerfile](https://img.shields.io/badge/GitHub-Dockerfile-blue)](hash/Dockerfile)
 [![Docker Build](https://github.com/leplusorg/docker-hash/workflows/Docker/badge.svg)](https://github.com/leplusorg/docker-hash/actions?query=workflow:"Docker")
