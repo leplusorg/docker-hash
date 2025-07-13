@@ -14,7 +14,7 @@ SHELL ["/bin/ash", "-euo", "pipefail", "-c"]
 # hadolint ignore=DL3019
 RUN apk -U upgrade \
     && apk add \
-    apache2-utils=2.4.63-r4 \
+    apache2-utils=2.4.64-r0 \
     argon2=20190702-r5 \
     coreutils=9.7-r1 \
     curl=8.14.1-r1 \
