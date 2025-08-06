@@ -21,7 +21,7 @@ RUN apk -U upgrade \
     git=2.49.1-r0 \
     openssl=3.5.1-r0 \
     perl-archive-zip=1.68-r3 \
-    perl-utils=5.40.2-r0 \
+    perl-utils=5.40.3-r0 \
     py3-pip=25.1.1-r0 \
     python3=3.12.11-r0 \
     rhash=1.4.5-r0 \
