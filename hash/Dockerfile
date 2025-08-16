@@ -20,6 +20,7 @@ RUN apk -U upgrade \
     curl=8.14.1-r1 \
     git=2.49.1-r0 \
     openssl=3.5.1-r0 \
+    outils-sha256=0.13-r1 \
     perl-archive-zip=1.68-r3 \
     perl-utils=5.40.3-r0 \
     py3-pip=25.1.1-r0 \
