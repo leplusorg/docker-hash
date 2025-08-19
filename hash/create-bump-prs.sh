@@ -18,10 +18,12 @@ if [ -f .bump.csv.bak ]; then
 		\perl -i -p -e "s|\Q${l1}\E|${l2}|g" Dockerfile
 		\git add Dockerfile
 		\git commit -S -m "build(deps): bump ${p} from ${v1} to ${v2}"
-		echo "Please review and push commit in branch \"${b}\". Waiting..."
+		echo -n "Please review and push commit in branch \"${b}\". Waiting..."
 		while [ "$(git rev-list --count --left-only '@{u}...HEAD')" -gt 0 ]; do
 			\sleep 1
+			\echo -n .
 		done
+		\echo
 		\gh pr create -f -l build -l dependencies
 		\git checkout -
 	done <<<"${csv}"
