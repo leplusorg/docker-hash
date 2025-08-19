@@ -9,6 +9,7 @@ if [ -f .bump.csv.bak ]; then
 		>&2 echo "error: git repo contains uncommitted changes"
 		exit 1
 	fi
+	\git pull
 	csv="$(\cat .bump.csv.bak)"
 	\rm -f .bump.csv.bak
 	while IFS=',' read -r p v1 v2 l1 l2; do
