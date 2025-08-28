@@ -12,8 +12,8 @@ ARG USER_GECOS=Default
 SHELL ["/bin/ash", "-euo", "pipefail", "-c"]
 
 # hadolint ignore=DL3019
-RUN apk -U upgrade \
-    && apk add \
+RUN apk upgrade --no-cache \
+    && apk add --no-cache \
     apache2-utils=2.4.65-r0 \
     argon2=20190702-r5 \
     coreutils=9.7-r1 \
@@ -27,7 +27,7 @@ RUN apk -U upgrade \
     python3=3.12.11-r0 \
     rhash=1.4.5-r0 \
     xxhash=0.8.3-r0 \
-    && apk cache clean \
+    && apk cache --no-cache clean \
     && rm -rf /var/cache/apk/*
 
 RUN adduser \
