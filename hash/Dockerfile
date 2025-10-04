@@ -16,7 +16,7 @@ RUN apk upgrade --no-cache \
     apache2-utils=2.4.65-r0 \
     argon2=20190702-r5 \
     coreutils=9.7-r1 \
-    curl=8.14.1-r1 \
+    curl=8.14.1-r2 \
     git=2.49.1-r0 \
     openssl=3.5.4-r0 \
     outils-sha256=0.13-r1 \
