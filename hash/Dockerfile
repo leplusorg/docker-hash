@@ -23,7 +23,7 @@ RUN apk upgrade --no-cache \
     perl-archive-zip=1.68-r3 \
     perl-utils=5.40.3-r0 \
     py3-pip=25.1.1-r0 \
-    python3=3.12.11-r0 \
+    python3=3.12.12-r0 \
     rhash=1.4.5-r0 \
     xxhash=0.8.3-r0 \
     && apk cache --no-cache clean \
