@@ -18,7 +18,7 @@ RUN apk upgrade --no-cache \
     coreutils=9.8-r1 \
     curl=8.17.0-r1 \
     git=2.52.0-r0 \
-    openssl=3.5.4-r0 \
+    openssl=3.5.5-r0 \
     outils-sha256=0.14-r0 \
     perl-archive-zip=1.68-r3 \
     perl-utils=5.42.0-r0 \
