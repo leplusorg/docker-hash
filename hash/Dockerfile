@@ -13,7 +13,7 @@ SHELL ["/bin/ash", "-euo", "pipefail", "-c"]
 
 RUN apk upgrade --no-cache \
     && apk add --no-cache \
-    apache2-utils=2.4.67-r0 \
+    apache2-utils=2.4.68-r0 \
     argon2=20190702-r5 \
     coreutils=9.11-r0 \
     curl=8.21.0-r0 \
