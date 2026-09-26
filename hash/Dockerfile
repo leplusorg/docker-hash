@@ -21,7 +21,7 @@ RUN apk upgrade --no-cache \
     openssl=3.5.8-r0 \
     outils-sha256=0.14-r0 \
     perl-archive-zip=1.68-r3 \
-    perl-utils=5.42.2-r0 \
+    perl-utils=5.42.2-r1 \
     py3-pip=26.1.2-r0 \
     python3=3.14.7-r1 \
     rhash=1.4.6-r0 \
